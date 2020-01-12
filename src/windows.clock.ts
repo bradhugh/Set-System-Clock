@@ -10,7 +10,6 @@ export default class WindowsDateTimeControl implements IDateTimeControl {
 
         let performExec: (command: string) => void = sudo ? windosu.exec : exec;
 
-        performExec(`date ${dateFormat(dateTime, 'm/d/yyyy')}`);
-        performExec(`time ${dateFormat(dateTime, 'HH:MM:ss')}`);
+        performExec(`date ${dateFormat(dateTime, 'm/d/yyyy')} & time ${dateFormat(dateTime, 'HH:MM:ss')}`);
     }
 }

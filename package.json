@@ -1,6 +1,6 @@
 {
-  "name": "set-system-clock",
-  "version": "1.0.4",
+  "name": "@bradhugh/set-system-clock",
+  "version": "1.0.5",
   "description": "Sets the system date and time.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ConnorChristie/Set-System-Clock.git"
+    "url": "git+https://github.com/bradhugh/Set-System-Clock.git"
   },
   "keywords": [
     "time",
